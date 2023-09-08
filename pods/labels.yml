@@ -4,6 +4,8 @@ metadata:
  name: label-pod
  labels:
   key: value
+ annotations:
+  key: valus
 spec:
  containers:
  - image: nginx
